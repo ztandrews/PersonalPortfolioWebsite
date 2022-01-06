@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export default class Blog extends Component {
     render() {
         return (
-            <div>
-                <h1>Blog</h1>
+            <div className = "container">
+                <h1 className = "page-header">Blog</h1>
             </div>
         )
     }
