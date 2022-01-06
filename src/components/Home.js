@@ -16,23 +16,26 @@ export default class Home extends Component {
                         <Row>
                             <Col>Python</Col>
                             <Col>Java</Col>
-                            <Col>JavaScript</Col>
-
+                           
                         </Row>
                         <Row>
+                            <Col>JavaScript</Col>
                             <Col>SQL</Col>
+                        </Row>
+                        <Row>
                             <Col>Bash</Col>
                             <Col>R</Col>
-
                         </Row>
                         <Row>
                             <Col>Ruby</Col>
                             <Col>Perl</Col>
-                            <Col>PLSQL</Col>
                         </Row>
                         <Row>
                             <Col>PHP</Col>
                             <Col>C++</Col>
+                        </Row>
+                        <Row>
+                            <Col>PLSQL</Col>
                             <Col></Col>
                         </Row>
 
@@ -42,20 +45,21 @@ export default class Home extends Component {
                         <Row>
                             <Col>React</Col>
                             <Col>Angular</Col>
+                        </Row>
+                        <Row>
                             <Col>Django</Col>
+                            <Col></Col>
                         </Row>
                     </Container>
                     <h3 className="subtitle2">Operating Systems</h3>
                     <Container>
                         <Row>
                             <Col>Windows</Col>
-                            <Col>SunOS</Col>
                             <Col>Ubuntu</Col>
                         </Row>
                         <Row>
                             <Col>MacOS</Col>
-                            <Col></Col>
-                            <Col></Col>
+                            <Col>SunOS</Col>
                         </Row>
                     </Container>
                     <h3 className="subtitle2">Methodologies</h3>
@@ -63,24 +67,28 @@ export default class Home extends Component {
                         <Row>
                             <Col>Agile</Col>
                             <Col>DevOps</Col>
+                        </Row>
+                        <Row>
                             <Col>DevSecOps</Col>
+                            <Col></Col>
                         </Row>
                     </Container>
                     <h3 className="subtitle2">Other</h3>
                     <Container>
                         <Row>
                             <Col>AWS</Col>
-                            <Col>Splunk</Col>
                             <Col>Git</Col>
                         </Row>
                         <Row>
                             <Col>MongoDB</Col>
-                            <Col>Raspberry Pi</Col>
-                            <Col>App Dynamics</Col>
+                            <Col>Splunk</Col> 
                         </Row>
                         <Row>
                             <Col>PowerApps</Col>
-                            <Col></Col>
+                            <Col>Raspberry Pi</Col>
+                        </Row>
+                        <Row>
+                            <Col>App Dynamics</Col>
                             <Col></Col>
                         </Row>
                     </Container>
