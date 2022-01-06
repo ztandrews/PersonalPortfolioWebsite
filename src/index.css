@@ -14,11 +14,11 @@ code {
 
 .profile-picture {
   border-radius: 50%;
-  width: 30%;
+  width: 45%;
   max-width: 350px;
   height: auto;
   display: block;
-margin-left: auto;
+  margin-left: auto;
 margin-right: auto;
 }
 
@@ -30,4 +30,18 @@ margin-right: auto;
 hr{
   width: 50%;
   margin-left:25% !important; margin-right:25% !important;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 35px;
+}
+
+.subtitle2{
+  text-align: left;
+  color: #919191;
+}
+
+.paragraphs{
+
 }
