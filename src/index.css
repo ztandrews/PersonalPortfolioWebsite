@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.profile-picture {
+  border-radius: 50%;
+  width: 30%;
+  max-width: 350px;
+  height: auto;
+}
+
+.page-header{
+  font-size: 400%;
+}
+
+hr{
+  width: 50%;
+  margin-left:25% !important; margin-right:25% !important;
+}
