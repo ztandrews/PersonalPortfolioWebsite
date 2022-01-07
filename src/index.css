@@ -23,7 +23,7 @@ margin-right: auto;
 }
 
 .page-header{
-  font-size: 400%;
+  font-size: 450%;
   text-align: center;
 }
 
@@ -34,18 +34,41 @@ hr{
 
 .subtitle{
   text-align: center;
-  font-size: 35px;
+  font-size: 300%;
 }
 
-.subtitle2{
-  text-align: left;
-  color: #919191;
+h3{
+  text-align: center;
 }
 
 .container2 {
-  margin: auto;
   width: 70%;
-  max-width: 900px; /* 2 */
-  border-radius: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+h4{
+  text-align: center;
+}
+
+h5{
+  text-align: center;
+}
+
+.skills{
+  text-align: center;
+  background-color: rgb(136, 136, 136);
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+}
+
+.container3{
+    width: 40%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
