@@ -20,32 +20,33 @@ const Project = () => {
                         <Button variant="dark" onClick={() => setShowShotMaps(true)}>Learn More</Button>
                         <Modal show={showShotMaps} onHide={() => setShowShotMaps(false)} size="lg">
                             <Modal.Header closeButton>
-                           <Modal.Title><h5 className='left'>NHL Shot Maps</h5></Modal.Title> 
-                           
+                                <Modal.Title><h5 className='left'>NHL Shot Maps</h5></Modal.Title>
+
                             </Modal.Header>
                             <Modal.Body>
-                            <div className='container'>
-                                <h6>&emsp;The NHL Shot Maps programs I made are written in Python and each serve their own purposes. I will breifly go through the implementation of them, followed by example outputs from
-                                    each of the files in the GitHub repo.<br></br>
-                                    &emsp;As a lifelong hockey fan, I thought it would be a fun project for me to experiment with the undocumented NHL API and create various shot maps from the data given.
-                                    I used this program as an oppertunity to learn some data science skills, speciffically data visualization. I utilized the NHL API to get shot data, and the Python packages Matplotlib, Seaborn, and NHLRink to 
-                                    create the diagrams. I will show example outputs for what each program does, but feel free
-                                    to take a look at the GitHub repo for a more in-depth look at the code for each program.
-                                </h6>
-                                <h5 className='left'>Single Game Shots</h5>
-                                <img className="img-fluid" src = "https://user-images.githubusercontent.com/68918006/147365443-03a3921e-cc6d-416f-b179-0806c7c08ffd.png"></img>
-                           <h6>&emsp;This program generates a shot map for a specified NHL game, plotting the home team on the right side and the away team on the left. Each shot is color and shape coordinated
-                              based on the result of the shot. 
-                           </h6>
-                           <h5 className='left'>All Team Shots (Smooth)</h5>
-                            <img className="img-fluid" src="https://user-images.githubusercontent.com/68918006/148008701-94ca0683-bb5d-4aa6-a555-245257557748.png"></img> 
-                            <h6>&emsp;This program shows all shots taken by an NHL team in a given season, and smooths the data points usin Seaborn to create
-                                a heatmap effect. The more shots a team takes at a certain spot on the ice, the darker the shade of red is.
-                            </h6>
-                            <h5 className='left'>All Team Shots (Hex)</h5>
-                            <img className='img-fluid' src="https://user-images.githubusercontent.com/68918006/147365563-d6903bf2-a9bb-43e8-9d57-7bc40c6a4a69.png"></img>
-                            <h6>&emsp;Same as the above program, but the plot is a Matplotlib hexbin instead of a heatmap.</h6>
-                            </div>
+                                <div className='container'>
+                                    <a target = "_blank" rel="noopener noreferrer" href="https://github.com/ztandrews/NHLShotCharts">
+                                    <img className='card-icons' src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></img>
+                                    </a>
+                                    <h6>&emsp;These programs are all written in Python and work with NHL shot location data from the <a target = "_blank" rel="noopener noreferrer" href="https://gitlab.com/dword4/nhlapi">"Unofficial" NHL API</a>. Each program serves it's own purpose (listed below) but they are 
+                                        all generally the same in that they are visualizing NHL shot data, either from a certain  team or a certain game. I used these programs as a way to learn more about data visualization,
+                                        and more speciffially how to make nice-looking charts using tools like Matplotlib and Seaborn. I also took advantage of an extremly useful Python library called <a target = "_blank" rel="noopener noreferrer" href="https://pythonrepo.com/repo/the-bucketless-hockey_rink">hockey_rink</a>
+                                          which allowed me to use a pre-drawn, NHL scaled rink to plot the data. Listed below are the programs, their uses, and example outputs.
+                                    </h6>
+                                    <h5 className='left'>Single Game Shots</h5>
+                                    <img className="img-fluid" src="https://user-images.githubusercontent.com/68918006/147365443-03a3921e-cc6d-416f-b179-0806c7c08ffd.png"></img>
+                                    <h6>&emsp;This program generates a shot map for a specified NHL game, plotting the home team on the right side and the away team on the left. Each shot is color and shape coordinated
+                                        based on the result of the shot.
+                                    </h6>
+                                    <h5 className='left'>All Team Shots (Smooth)</h5>
+                                    <img className="img-fluid" src="https://user-images.githubusercontent.com/68918006/148008701-94ca0683-bb5d-4aa6-a555-245257557748.png"></img>
+                                    <h6>&emsp;This program shows all shots taken by an NHL team in a given season, and smooths the data points usin Seaborn to create
+                                        a heatmap effect. The more shots a team takes at a certain spot on the ice, the darker the shade of red is.
+                                    </h6>
+                                    <h5 className='left'>All Team Shots (Hex)</h5>
+                                    <img className='img-fluid' src="https://user-images.githubusercontent.com/68918006/147365563-d6903bf2-a9bb-43e8-9d57-7bc40c6a4a69.png"></img>
+                                    <h6>&emsp;Same as the above program, but the plot is a Matplotlib hexbin instead of a heatmap.</h6>
+                                </div>
                             </Modal.Body>
                         </Modal>
                     </div>
@@ -66,12 +67,17 @@ const Project = () => {
                                 <Modal.Title><h5>NHL Goal Differential</h5></Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
-                                <h6>&emsp;This is a program written in Python that visualizes an NHL teams goal differential per game played. If they have a positive goal differential, that means they won
-                                    the game and the bar will be green. If they had a negative goal differential, the team lost the game and the bar will be red. <br></br>
-                                &emsp;This was written in Python and utilized an NHL Python SDK to get game data, as well as Matplotlib to plot each diffierential.<br></br>
-                                &emsp;Here is an example output that shows the New York Islanders 2020-2021 season goal differential per game:
-                                </h6>
-                                <img className='img-fluid' src = "https://user-images.githubusercontent.com/68918006/137642521-cf2c39c2-34c6-4b5a-a126-7456975937d7.png"></img>
+                                <div className='container'>
+                                    <a target = "_blank" rel="noopener noreferrer" href="https://github.com/ztandrews/NHLGoalDifferential">
+                                    <img className='card-icons' src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></img>
+                                    </a>
+                                    <h6>&emsp;This is a program written in Python that visualizes an NHL teams goal differential per game played. If they have a positive goal differential, that means they won
+                                        the game and the bar will be green. If they had a negative goal differential, the team lost the game and the bar will be red. <br></br>
+                                        &emsp;This was written in Python and utilized an <a target = "_blank" rel="noopener noreferrer" href="https://sportsipy.readthedocs.io/en/latest/nhl.html#sportsipy.nhl.boxscore.BoxscorePlayer.on_ice_shot_attempts_against">NHL Python Package</a> to get game data, as well as Matplotlib to plot each diffierential.<br></br>
+                                        &emsp;Here is an example output that shows the New York Islanders 2020-2021 season goal differential per game:
+                                    </h6>
+                                    <img className='img-fluid' src="https://user-images.githubusercontent.com/68918006/137642521-cf2c39c2-34c6-4b5a-a126-7456975937d7.png"></img>
+                                </div>
                             </Modal.Body>
                         </Modal>
                     </div>

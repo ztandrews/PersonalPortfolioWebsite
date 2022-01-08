@@ -137,3 +137,12 @@ margin-right: auto;
   margin-left: auto;
   justify-content: center;
 }
+
+.card-icons{
+    width: 50%;
+  max-width: 70px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+margin-right: auto;
+}
