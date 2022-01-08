@@ -6,7 +6,7 @@ export default class Home extends Component {
             <div className="container2">
                 <h1 className="page-header">Home</h1>
                 <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEp9Y3FX-3o1w/profile-displayphoto-shrink_800_800/0/1631640775932?e=1646870400&v=beta&t=ZN-LIe_2yz5abfGVfZzS-ARW9A8eMYQNbstVYBQwwjY" className="profile-picture"></img>
-                <h3>Hello, I'm Zach Andrews. Welcome to my portfolio website! Here, you'll find information about my skills, experience, education, projects, and my blog! Feel free to reach out to me with any questions or comments!</h3>
+                <h3>Hello, I'm Zach Andrews.</h3>
                 <h2 className='subtitle'>Skills</h2>
                 <h3>Languages</h3>
                 <div className='container3'>
@@ -164,7 +164,7 @@ export default class Home extends Component {
                 </div>
                 <br></br>
                 <h2 className='subtitle'>Experience</h2>
-                <Card style={{ width: '25rem' }} className='mx-auto'>
+                <Card>
                     <Card.Img className='card-images' variant="top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Fiserv_logo.svg/2560px-Fiserv_logo.svg.png" />
                     <Card.Body>
                         <Card.Title className='card-font' >Fiserv</Card.Title>
@@ -177,7 +177,7 @@ export default class Home extends Component {
                     </Card.Body>
                 </Card>
                 <br></br>
-                <Card style={{ width: '25rem' }} className='mx-auto'>
+                <Card>
                     <Card.Img className='card-images' variant="top" src="https://denellelaw.com/wp-content/uploads/sites/120/2021/03/catic_logo.png" />
                     <Card.Body>
                         <Card.Title className='card-font' >CATIC</Card.Title>
@@ -190,17 +190,17 @@ export default class Home extends Component {
                     </Card.Body>
                 </Card>
                 <h2 className='subtitle'>Education</h2>
-                <Card style={{ width: '25rem' }} className='mx-auto'>
+                <Card>
                     <Card.Img className='card-images' variant="top" src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/monmouth_u/standard.png?1580176224" />
+
                     <Card.Body>
                         <Card.Title className='card-font' >Monmouth University</Card.Title>
                         <Card.Text className='card-font' >
-                            Computer Science with a concentration in databases and intelligent information systems: 2023
+                            2023
                         </Card.Text>
                         <div class="col text-center">
                             <Button variant="dark">Learn More</Button>
                         </div>
-
                     </Card.Body>
                 </Card>
             </div>

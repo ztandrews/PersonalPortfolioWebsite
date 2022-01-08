@@ -98,8 +98,11 @@ margin-right: auto;
 .card-font{
   text-align: center;
 }
-
-.centered-button{
-  display: flex;
-  justify-content: center;
+.card-images2{
+    width: 90%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+margin-right: auto;
 }
