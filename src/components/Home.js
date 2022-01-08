@@ -164,7 +164,45 @@ export default class Home extends Component {
                 </div>
                 <br></br>
                 <h2 className='subtitle'>Experience</h2>
+                <Card style={{ width: '25rem' }} className='mx-auto'>
+                    <Card.Img className='card-images' variant="top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Fiserv_logo.svg/2560px-Fiserv_logo.svg.png" />
+                    <Card.Body>
+                        <Card.Title className='card-font' >Fiserv</Card.Title>
+                        <Card.Text className='card-font' >
+                            Software Engineer Intern: Summer 2021
+                        </Card.Text>
+                        <div class="col text-center">
+                            <Button variant="dark">Learn More</Button>
+                        </div>
+                    </Card.Body>
+                </Card>
+                <br></br>
+                <Card style={{ width: '25rem' }} className='mx-auto'>
+                    <Card.Img className='card-images' variant="top" src="https://denellelaw.com/wp-content/uploads/sites/120/2021/03/catic_logo.png" />
+                    <Card.Body>
+                        <Card.Title className='card-font' >CATIC</Card.Title>
+                        <Card.Text className='card-font' >
+                            Data Entry Clerk: Summer 2018 - Winter 2018
+                        </Card.Text>
+                        <div class="col text-center">
+                            <Button variant="dark">Learn More</Button>
+                        </div>
+                    </Card.Body>
+                </Card>
                 <h2 className='subtitle'>Education</h2>
+                <Card style={{ width: '25rem' }} className='mx-auto'>
+                    <Card.Img className='card-images' variant="top" src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/monmouth_u/standard.png?1580176224" />
+                    <Card.Body>
+                        <Card.Title className='card-font' >Monmouth University</Card.Title>
+                        <Card.Text className='card-font' >
+                            Computer Science with a concentration in databases and intelligent information systems: 2023
+                        </Card.Text>
+                        <div class="col text-center">
+                            <Button variant="dark">Learn More</Button>
+                        </div>
+
+                    </Card.Body>
+                </Card>
             </div>
         )
     }
