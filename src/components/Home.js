@@ -21,22 +21,19 @@ export default class Home extends Component {
                                 <img className='icons' src="https://www.blockachain.gr/wp-content/uploads/2018/03/java-coffee-cup-logo.png"></img>
                             </OverlayTrigger>
                         </Col>
-                    </Row>
-                    <br></br>
-                    <Row>
                         <Col>
                             <OverlayTrigger overlay={<Tooltip>JavaScript</Tooltip>}>
                                 <img className='icons' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"></img>
                             </OverlayTrigger>
                         </Col>
+                    </Row>
+                    <br></br>
+                    <Row>
                         <Col>
                             <OverlayTrigger overlay={<Tooltip>PHP</Tooltip>}>
                                 <img className='icons' src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png"></img>
                             </OverlayTrigger>
                         </Col>
-                    </Row>
-                    <br></br>
-                    <Row>
                         <Col>
                             <OverlayTrigger overlay={<Tooltip>HTML/CSS</Tooltip>}>
                                 <img className='icons' src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/2560px-CSS3_and_HTML5_logos_and_wordmarks.svg.png"></img>
@@ -60,19 +57,22 @@ export default class Home extends Component {
                                 <img className='icons' src="https://img.stackshare.io/service/1048/perl.png"></img>
                             </OverlayTrigger>
                         </Col>
-                    </Row>
-                    <br></br>
-                    <Row>
+
                         <Col>
                             <OverlayTrigger overlay={<Tooltip>C++</Tooltip>}>
                                 <img className='icons' src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"></img>
                             </OverlayTrigger>
                         </Col>
+                    </Row>
+                    <br></br>
+                    <Row>
                         <Col>
                             <OverlayTrigger overlay={<Tooltip>Bash</Tooltip>}>
                                 <img className='icons' src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/1200px-Bash_Logo_Colored.svg.png"></img>
                             </OverlayTrigger>
                         </Col>
+                        <Col></Col>
+                        <Col></Col>
                     </Row>
                 </div>
                 <br></br>
@@ -89,6 +89,7 @@ export default class Home extends Component {
                                 <img className='icons' src="https://camo.githubusercontent.com/66250619876d623eb603398f2f52ed2187bd1e73077b8500484917e362c5ea6f/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61726a732f416e67756c61724a532d536869656c642e737667"></img>
                             </OverlayTrigger>
                         </Col>
+                        <Col></Col>
                     </Row>
                 </div>
                 <br></br>
@@ -105,19 +106,21 @@ export default class Home extends Component {
                                 <img className='icons' src="https://camo.githubusercontent.com/c605f22eb35be472a9e739b4f82fa9b0a522fc02af1df6c39e5559a76450d5b4/68747470733a2f2f6173736574732e7562756e74752e636f6d2f76312f32393938356139382d7562756e74752d6c6f676f33322e706e67"></img>
                             </OverlayTrigger>
                         </Col>
-                    </Row>
-                    <br></br>
-                    <Row>
                         <Col>
                             <OverlayTrigger overlay={<Tooltip>Oracle Solaris</Tooltip>}>
                                 <img className='icons' src="https://camo.githubusercontent.com/0c4284605922c7427828dcfd7928f61e0e91c03e2636aed2075c94488c308956/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f652f65652f416b7475616c6e655f6c6f676f5f4f7261636c655f536f6c617269735f4f535f4f536f732e706e672f32353070782d416b7475616c6e655f6c6f676f5f4f7261636c655f536f6c617269735f4f535f4f536f732e706e67"></img>
                             </OverlayTrigger>
                         </Col>
+                    </Row>
+                    <br></br>
+                    <Row>
                         <Col>
                             <OverlayTrigger overlay={<Tooltip>Mac OS</Tooltip>}>
                                 <img className='icons' src="https://www.kindpng.com/picc/m/172-1724310_mac-os-logo-png-transparent-png.png"></img>
                             </OverlayTrigger>
                         </Col>
+                        <Col></Col>
+                        <Col></Col>
                     </Row>
                 </div>
                 <br></br>
@@ -134,22 +137,20 @@ export default class Home extends Component {
                                 <img className='icons' src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Splunk-Logo.jpg"></img>
                             </OverlayTrigger>
                         </Col>
-                    </Row>
-                    <br></br>
-                    <Row>
+                    
                         <Col>
                             <OverlayTrigger overlay={<Tooltip>Raspberry Pi</Tooltip>}>
                                 <img className='icons' src="https://camo.githubusercontent.com/9a74d66a0ad783f2d2fc9119a746a6be92a9c2c57c64537bd82eb89d102202f5/68747470733a2f2f7777772e72617370626572727970692e6f72672f6170702f75706c6f6164732f323031382f30332f5250692d4c6f676f2d5265672d53435245454e2e706e67"></img>
                             </OverlayTrigger>
                         </Col>
+                        </Row>
+                    <br></br>
+                    <Row>
                         <Col>
                             <OverlayTrigger overlay={<Tooltip>Git</Tooltip>}>
                                 <img className='icons' src="https://camo.githubusercontent.com/b8ee9fd2e9b26a7265ece6dbc6f5c7449928b84f45a08fe5852d6a8dfd915fb3/68747470733a2f2f6769742d73636d2e636f6d2f696d616765732f6c6f676f732f646f776e6c6f6164732f4769742d49636f6e2d31373838432e706e67"></img>
                             </OverlayTrigger>
                         </Col>
-                    </Row>
-                    <br></br>
-                    <Row>
                         <Col>
                             <OverlayTrigger overlay={<Tooltip>PowerApps</Tooltip>}>
                                 <img className='icons' src="https://powerapps.microsoft.com/images/shared/social/social-default-image.png"></img>

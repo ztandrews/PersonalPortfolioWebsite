@@ -23,7 +23,7 @@ margin-right: auto;
 }
 
 .icons{
-  width: 70%;
+  width: 130%;
   max-width: 70px;
   height: auto;
   display: block;
@@ -105,4 +105,8 @@ margin-right: auto;
   display: block;
   margin-left: auto;
 margin-right: auto;
+}
+
+.left{
+  text-align: left;
 }
