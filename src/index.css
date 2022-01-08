@@ -14,8 +14,8 @@ code {
 
 .profile-picture {
   border-radius: 50%;
-  width: 45%;
-  max-width: 350px;
+  width: 90%;
+  max-width: 400px;
   height: auto;
   display: block;
   margin-left: auto;
@@ -23,8 +23,8 @@ margin-right: auto;
 }
 
 .icons{
-  width: 40%;
-  max-width: 55px;
+  width: 70%;
+  max-width: 70px;
   height: auto;
   display: block;
   margin-left: auto;

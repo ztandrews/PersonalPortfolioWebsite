@@ -6,8 +6,7 @@ export default class Home extends Component {
             <div className="container2">
                 <h1 className="page-header">Home</h1>
                 <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEp9Y3FX-3o1w/profile-displayphoto-shrink_800_800/0/1631640775932?e=1646870400&v=beta&t=ZN-LIe_2yz5abfGVfZzS-ARW9A8eMYQNbstVYBQwwjY" className="profile-picture"></img>
-                <h3>Hello, I'm Zach Andrews. Welcome to my portfolio website.
-                </h3>
+                <h3>Hello, I'm Zach Andrews. Welcome to my portfolio website! Here, you'll find information about my skills, experience, education, projects, and my blog! Feel free to reach out to me with any questions or comments!</h3>
                 <h2 className='subtitle'>Skills</h2>
                 <h3>Languages</h3>
                 <div className='container3'>
