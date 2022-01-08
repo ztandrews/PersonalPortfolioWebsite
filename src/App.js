@@ -8,7 +8,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
+import Footer from './components/Footer';
 
 import Blog from './components/Blog';
 import Contact from './components/Contact';
@@ -27,6 +27,7 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
       </div>
+      <Footer/>
     </Router>
   );
 }

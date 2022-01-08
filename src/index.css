@@ -39,6 +39,7 @@ margin-right: auto;
 hr{
   width: 50%;
   margin-left:25% !important; margin-right:25% !important;
+  padding: 1px;
 }
 
 .subtitle{
@@ -109,4 +110,30 @@ margin-right: auto;
 
 .left{
   text-align: left;
+}
+
+.main-footer{
+  text-align: center;
+  position: relative;
+  bottom:0;
+  width:100%
+}
+
+.footer-icons{
+  width: 50%;
+  max-width: 30px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+margin-right: auto;
+}
+
+.container4{
+  width: 100%;
+  max-width: 350px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
 }
