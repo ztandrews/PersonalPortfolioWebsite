@@ -3,7 +3,8 @@ import { Container, Row, Col, Card, Button, OverlayTrigger, Tooltip } from 'reac
 function Footer() {
     return (
         <div className='main-footer'>
-            <hr></hr>
+            <br></br>
+            <br></br>
             <p>2022 Zach Andrews</p>
            <div className='container4'>
                            <Row>
