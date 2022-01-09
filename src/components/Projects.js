@@ -8,6 +8,8 @@ const Project = () => {
     const [showGoalDiff, setShowGoalDiff] = useState(false);
     const [showPolar, setShowPolar] = useState(false);
     const [showSleeper, setShowSleeper] = useState(false);
+    const [showWWJD, setShowWWJD] = useState(false);
+    const [showLC, setShowLC] = useState(false);
     return (
         <div className='container'>
             <h1 className="page-header">Projects</h1>
@@ -147,7 +149,7 @@ const Project = () => {
                                     <h6>&emsp;This Python program is for seeing how well, or poorly, a Sleeper fantasy football team's players are playing compared
                                         to Sleepers projections. During the fantasy football season, I found myself curious to see if my team was underperforming, or if I was just really bad
                                         at drafting. This program visualizes the answer to that question.<br></br>
-                                        &emsp;This program was made using Python, with the data being collected from the unofficial Sleeper API. I used Matplotlib to visualize the difference in actual PPR points 
+                                        &emsp;This program was made using Python, with the data being collected from the unofficial Sleeper API. I used Matplotlib to visualize the difference in actual PPR points
                                         and expected PPR points, and was able to see just how much my team was underperforming. An example output is below.
                                     </h6>
                                     <img className='img-fluid' src="https://user-images.githubusercontent.com/68918006/142657452-f41ae6a1-ea78-413e-a0e2-503e75883884.png"></img>
@@ -166,7 +168,34 @@ const Project = () => {
                         A React website for my fantasy football team.
                     </Card.Text>
                     <div className="col text-center">
-                        <Button variant="dark">Learn More</Button>
+                        <Button variant="dark" variant="dark" onClick={() => setShowWWJD(true)}>Learn More</Button>
+                        <Modal show={showWWJD} onHide={() => setShowWWJD(false)} size="lg">
+                            <Modal.Header closeButton>
+                                <Modal.Title>
+                                    <h5>Fantasy Football Team Website</h5>
+                                </Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
+                                <div className='container'>
+                                    <h6>
+                                        &emsp;This project was my first full-stack React application. After weeks of learning React, I decided the best way
+                                        for me to fully grasp all of the concepts was to build out a fully functional application, and decided I could make it
+                                        fun by creating a website for my dynasty fantasy football team. The website includes an auto-refreshing scoreboard for the current
+                                        week, an articles section where I write some articles about the team, and an auto-updating roster section.<br></br>
+                                        &emsp;This proect was built with a React front-end Firebase for storage and hosting. Firebase offered me
+                                        a free, easy to use system that I decided would be the best for the app. I used Python and the Sleeper API to create
+                                        "batch" processes to populate the Firebase databases, which the React application then reads and presents the
+                                        data. Below are a few screenshots of the website.
+                                    </h6>
+                                    <h5 className='left'>Home Page</h5>
+                                    <img className='img-fluid' src="./wwjd.jpg"></img>
+                                    <h5 className='left'>Social Page</h5>
+                                    <img className='img-fluid' src="./wjd2.jpg"></img>
+                                    <h5 className='left'>Roster Page</h5>
+                                    <img className='img-fluid' src="./wwjd3.jpg"></img>
+                                </div>
+                            </Modal.Body>
+                        </Modal>
                     </div>
                 </Card.Body>
             </Card>
@@ -179,7 +208,28 @@ const Project = () => {
                         Islanders website that tracks a fake cryptocurrency.
                     </Card.Text>
                     <div className="col text-center">
-                        <Button variant="dark">Learn More</Button>
+                        <Button variant="dark" variant="dark" onClick={() => setShowLC(true)}>Learn More</Button>
+                        <Modal show={showLC} onHide={() => setShowLC(false)} size="lg">
+                            <Modal.Header closeButton>
+                                <Modal.Title>
+                                    <h5>LouCoin Website</h5>
+                                </Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
+                                <div className='container'>
+                                    <h6>&emsp;This project is the first website I ever created, with a bit of a funny backstory. Some friends of mine, who are Islanders fans like me,
+                                        created a fake cryptocurrency that Islanders players "mined" by hitting the other other team during their games. I built this 
+                                        website to display a leaderboard that shows how many "LouCoin" each Islanders player has mined in the current season.<br></br>
+                                        &emsp;This project was my introduction to web development. It was built on plain HTML/CSS with a Python program that 
+                                        calculated each players LouCoin amount (their total hits * current value of LouCoin) and uploaded them a Firebase Real Time database, which the
+                                        website then reads in and displays. While this project is very niche and pretty much uselss to the everday person,
+                                        it gave me a full, hands on experience on how to build, host, and maintain a website, along with how to acquire a 
+                                        domain name and SSL certificate to make sure the site is secure. Below is a picture of what the site looks like.
+                                    </h6>
+                                    <img className='img-fluid' src="./lc.jpg"></img>
+                                </div>
+                            </Modal.Body>
+                        </Modal>
                     </div>
                 </Card.Body>
             </Card>
