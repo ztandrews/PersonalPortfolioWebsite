@@ -24,6 +24,7 @@ function Footer() {
             </Col>
              </Row>
              </div>
+             <br></br>
         </div>
     )
 }
