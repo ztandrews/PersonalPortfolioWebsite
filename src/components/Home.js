@@ -7,7 +7,7 @@ const Home = () => {
     const [showCATIC, setShowCATIC] = useState(false);
     const [showMU, setShowMU] = useState(false);
     return (
-        <div className="container2">
+        <div className="container">
             <h1 className="page-header">Home</h1>
             <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEp9Y3FX-3o1w/profile-displayphoto-shrink_800_800/0/1631640775932?e=1646870400&v=beta&t=ZN-LIe_2yz5abfGVfZzS-ARW9A8eMYQNbstVYBQwwjY" className="profile-picture"></img>
             <h3>Hello, I'm Zach Andrews.</h3>
@@ -169,7 +169,7 @@ const Home = () => {
             </div>
             <br></br>
             <h2 className='subtitle'>Experience</h2>
-            <Card>
+            <Card className='mx-auto' style={{ width: '20rem' }}  >
                 <Card.Img className='card-images' variant="top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Fiserv_logo.svg/2560px-Fiserv_logo.svg.png" />
                 <Card.Body>
                     <Card.Title className='card-font' >Fiserv</Card.Title>
@@ -206,8 +206,8 @@ const Home = () => {
                 </Card.Body>
             </Card>
             <br></br>
-            <Card>
-                <Card.Img className='card-images' variant="top" src="https://denellelaw.com/wp-content/uploads/sites/120/2021/03/catic_logo.png" />
+            <Card className='mx-auto' style={{ width: '20rem' }}  >
+                <Card.Img className='card-images' variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxyp90Ipos4cK6sHW_j-k7PxnjbGvI2eHQWlruekSQHjnNkHmmch14ZsKM3QkakyN15Q&usqp=CAU" />
                 <Card.Body>
                     <Card.Title className='card-font' >CATIC</Card.Title>
                     <Card.Text className='card-font' >
@@ -223,15 +223,16 @@ const Home = () => {
                             </Modal.Header>
                             <Modal.Body>
                                 <div className='container'>
-                                    <img className='modal-logo' src="https://denellelaw.com/wp-content/uploads/sites/120/2021/03/catic_logo.png"></img>
+                                    <img className='modal-logo' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxyp90Ipos4cK6sHW_j-k7PxnjbGvI2eHQWlruekSQHjnNkHmmch14ZsKM3QkakyN15Q&usqp=CAU"></img>
                                 <h5 className='left'>About</h5>
                                     <h6>• Data Entry Clerk Internship<br></br>• Summer 2018, Summer 2019, Summer 2020</h6>
                                     <h5 className='left'>Tasks</h5>
+                                    <h6>
                                     •   Collected and formatted municipality data for the CATIC iPhone application.<br></br>
                                     •	Reformatted unstructured spreadsheet data and reorganized it into importable columns using formulas and macros.<br></br>
                                     •	Collected new data from town websites and via phone calls to the municipalities when necessary.<br></br>
                                     •	Assisted in mass mailings.<br></br>
-
+                                    </h6>
                                 </div>
                             </Modal.Body>
                         </Modal>
@@ -239,7 +240,7 @@ const Home = () => {
                 </Card.Body>
             </Card>
             <h2 className='subtitle'>Education</h2>
-            <Card>
+            <Card className='mx-auto' style={{ width: '20rem' }}  >
                 <Card.Img className='card-images' variant="top" src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/monmouth_u/standard.png?1580176224" />
 
                 <Card.Body>
