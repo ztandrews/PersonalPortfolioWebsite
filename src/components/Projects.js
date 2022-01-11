@@ -13,8 +13,10 @@ const Project = () => {
     return (
         <div className='container'>
             <h1 className="page-header">Projects</h1>
-            <Card className='mx-auto' style={{ width: '20rem' }}  >
-                <Card.Img className='card-images2' variant="top" src="https://user-images.githubusercontent.com/68918006/148008701-94ca0683-bb5d-4aa6-a555-245257557748.png" />
+             <Row xs={1} md={2} className="g-4">
+            <Col>
+            <Card className='mx-auto h-100'>
+                <Card.Img className='card-images' variant="top" src="./rink.png" />
                 <Card.Body>
                     <Card.Title className='card-font' >NHL Shot Maps</Card.Title>
                     <Card.Text className='card-font' >
@@ -56,9 +58,10 @@ const Project = () => {
                     </div>
                 </Card.Body>
             </Card>
-            <br></br>
-            <Card className='mx-auto' style={{ width: '20rem' }}  >
-                <Card.Img className='card-images2' variant="top" src="https://user-images.githubusercontent.com/68918006/137642521-cf2c39c2-34c6-4b5a-a126-7456975937d7.png" />
+            </Col>
+            <Col>
+            <Card className='mx-auto h-100'>
+                <Card.Img className='card-images' variant="top" src="./diff.png" />
                 <Card.Body>
                     <Card.Title className='card-font' >NHL Goal Differential</Card.Title>
                     <Card.Text className='card-font' >
@@ -89,9 +92,13 @@ const Project = () => {
                     </div>
                 </Card.Body>
             </Card>
+            </Col>
+            </Row>
             <br></br>
-            <Card className='mx-auto' style={{ width: '20rem' }}  >
-                <Card.Img className='card-images2' variant="top" src="https://user-images.githubusercontent.com/68918006/114966410-7d2b0900-9e40-11eb-84df-f44418d7dffd.png" />
+           <Row xs={1} md={2} className="g-4">
+               <Col>
+            <Card  className='mx-auto h-100'>
+                <Card.Img className='card-images' variant="top" src="./charts.png" />
                 <Card.Body>
                     <Card.Title className='card-font' >MLB Polar Charts</Card.Title>
                     <Card.Text className='card-font' >
@@ -125,9 +132,10 @@ const Project = () => {
                     </div>
                 </Card.Body>
             </Card>
-            <br></br>
-            <Card className='mx-auto' style={{ width: '20rem' }}  >
-                <Card.Img className='card-images2' variant="top" src="https://user-images.githubusercontent.com/68918006/142657452-f41ae6a1-ea78-413e-a0e2-503e75883884.png" />
+           </Col>
+           <Col>
+            <Card className='mx-auto h-100'>
+                <Card.Img className='card-images' variant="top" src="./charts2.png" />
                 <Card.Body>
                     <Card.Title className='card-font' >Sleeper Points Above Expected</Card.Title>
                     <Card.Text className='card-font' >
@@ -159,9 +167,13 @@ const Project = () => {
                     </div>
                 </Card.Body>
             </Card>
+            </Col>
+            </Row>
             <br></br>
-            <Card className='mx-auto' style={{ width: '20rem' }}  >
-                <Card.Img className='card-images2' variant="top" src="./wwjd.jpg" />
+            <Row xs={1} md={2} className="g-4">
+                <Col>
+            <Card  className='mx-auto h-100'>
+                <Card.Img className='card-images' variant="top" src="./wwjd.jpg" />
                 <Card.Body>
                     <Card.Title className='card-font' >Fantasy Football Team Website</Card.Title>
                     <Card.Text className='card-font' >
@@ -199,9 +211,10 @@ const Project = () => {
                     </div>
                 </Card.Body>
             </Card>
-            <br></br>
-            <Card className='mx-auto' style={{ width: '20rem' }}  >
-                <Card.Img className='card-images2' variant="top" src="./lc.jpg" />
+            </Col>
+            <Col>
+            <Card  className='mx-auto h-100'>
+                <Card.Img className='card-images' variant="top" src="./lc.jpg" />
                 <Card.Body>
                     <Card.Title className='card-font' >LouCoin Website</Card.Title>
                     <Card.Text className='card-font' >
@@ -233,6 +246,8 @@ const Project = () => {
                     </div>
                 </Card.Body>
             </Card>
+            </Col>
+            </Row>
         </div>
     )
 }
