@@ -169,84 +169,91 @@ const Home = () => {
             </div>
             <br></br>
             <h2 className='subtitle'>Experience</h2>
-            <Card className='mx-auto' style={{ width: '20rem' }}  >
-                <Card.Img className='card-images' variant="top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Fiserv_logo.svg/2560px-Fiserv_logo.svg.png" />
-                <Card.Body>
-                    <Card.Title className='card-font' >Fiserv</Card.Title>
-                    <Card.Text className='card-font' >
-                        Software Engineer Intern: Summer 2021
-                    </Card.Text>
-                    <div class="col text-center">
+            <Row xs={1} md={2} className="g-4">
+                <Col>
+                    <Card className='mx-auto h-100'>
+                        <Card.Img className='card-images' variant="top" src="./fiserv.jpg" />
+                        <Card.Body>
+                            <Card.Title className='card-font' >Fiserv</Card.Title>
+                            <Card.Text className='card-font' >
+                                Software Engineer Intern
+                            </Card.Text>
+                            <div class="col text-center">
 
-                        <Button variant="dark" onClick={() => setShowFiserv(true)}>Learn More</Button>
-                        <Modal show={showFiserv} onHide={() => setShowFiserv(false)} size="lg">
-                            <Modal.Header closeButton>
-                                <Modal.Title>
-                                    <h5>Fiserv</h5>
-                                </Modal.Title>
-                            </Modal.Header>
-                            <Modal.Body>
+                                <Button variant="dark" onClick={() => setShowFiserv(true)}>Learn More</Button>
+                                <Modal show={showFiserv} onHide={() => setShowFiserv(false)} size="lg">
+                                    <Modal.Header closeButton>
+                                        <Modal.Title>
+                                            <h5>Fiserv</h5>
+                                        </Modal.Title>
+                                    </Modal.Header>
+                                    <Modal.Body>
 
-                                <div className='container'>
-                                    <img className='modal-logo' src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Fiserv_logo.svg/2560px-Fiserv_logo.svg.png"></img>
-                                    <h5 className='left'>About</h5>
-                                    <h6>• Software Engineering internship<br></br>• Summer 2021 <br></br>• A member of the Back Office System team</h6>
-                                    <h5 className='left'>Tasks</h5>
-                                    <h6>
-                                        •	Created a system health check script using Splunk and Bash Script to re-start any application outages.<br></br>
-                                        •	Created an infrastructure lookup application using PowerApps that allowed team members to look up information about Unix servers such as their IP Address, what applications run on them, and which data center they are located in.<br></br>
-                                        •	Assisted in the development of a custom monthly merchant report application using PLSQL that retrieved data about merchants based on query parameters submitted by clients.<br></br>
-                                        •	Assisted in the proof-of-concept and documentation phase of a self-service portal project.<br></br>
+                                        <div className='container'>
+                                            <img className='modal-logo' src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Fiserv_logo.svg/2560px-Fiserv_logo.svg.png"></img>
+                                            <h5 className='left'>About</h5>
+                                            <h6>• Software Engineering internship<br></br>• Summer 2021 <br></br>• A member of the Back Office System team</h6>
+                                            <h5 className='left'>Tasks</h5>
+                                            <h6>
+                                                •	Created a system health check script using Splunk and Bash Script to re-start any application outages.<br></br>
+                                                •	Created an infrastructure lookup application using PowerApps that allowed team members to look up information about Unix servers such as their IP Address, what applications run on them, and which data center they are located in.<br></br>
+                                                •	Assisted in the development of a custom monthly merchant report application using PLSQL that retrieved data about merchants based on query parameters submitted by clients.<br></br>
+                                                •	Assisted in the proof-of-concept and documentation phase of a self-service portal project.<br></br>
 
-                                    </h6>
-                                </div>
-                            </Modal.Body>
-                        </Modal>
-                    </div>
-                </Card.Body>
-            </Card>
-            <br></br>
-            <Card className='mx-auto' style={{ width: '20rem' }}  >
-                <Card.Img className='card-images' variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxyp90Ipos4cK6sHW_j-k7PxnjbGvI2eHQWlruekSQHjnNkHmmch14ZsKM3QkakyN15Q&usqp=CAU" />
-                <Card.Body>
-                    <Card.Title className='card-font' >CATIC</Card.Title>
-                    <Card.Text className='card-font' >
-                        Data Entry Clerk: Summer 2018 - Winter 2018
-                    </Card.Text>
-                    <div class="col text-center">
-                        <Button variant="dark" onClick={() => setShowCATIC(true)}>Learn More</Button>
-                        <Modal show={showCATIC} onHide={() => setShowCATIC(false)} size="lg">
-                            <Modal.Header closeButton>
-                                <Modal.Title>
-                                    <h5>CATIC</h5>
-                                </Modal.Title>
-                            </Modal.Header>
-                            <Modal.Body>
-                                <div className='container'>
-                                    <img className='modal-logo' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxyp90Ipos4cK6sHW_j-k7PxnjbGvI2eHQWlruekSQHjnNkHmmch14ZsKM3QkakyN15Q&usqp=CAU"></img>
-                                <h5 className='left'>About</h5>
-                                    <h6>• Data Entry Clerk Internship<br></br>• Summer 2018, Summer 2019, Summer 2020</h6>
-                                    <h5 className='left'>Tasks</h5>
-                                    <h6>
-                                    •   Collected and formatted municipality data for the CATIC iPhone application.<br></br>
-                                    •	Reformatted unstructured spreadsheet data and reorganized it into importable columns using formulas and macros.<br></br>
-                                    •	Collected new data from town websites and via phone calls to the municipalities when necessary.<br></br>
-                                    •	Assisted in mass mailings.<br></br>
-                                    </h6>
-                                </div>
-                            </Modal.Body>
-                        </Modal>
-                    </div>
-                </Card.Body>
-            </Card>
+                                            </h6>
+                                        </div>
+                                    </Modal.Body>
+                                </Modal>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <br></br>
+                <Col>
+                    <Card className='mx-auto h-100'>
+                        <Card.Img className='card-images' variant="top" src="./catic.jpg" />
+                        <Card.Body>
+                            <Card.Title className='card-font' >CATIC</Card.Title>
+                            <Card.Text className='card-font' >
+                                Data Entry Clerk
+                            </Card.Text>
+                            <div class="col text-center">
+                                <Button variant="dark" onClick={() => setShowCATIC(true)}>Learn More</Button>
+                                <Modal show={showCATIC} onHide={() => setShowCATIC(false)} size="lg">
+                                    <Modal.Header closeButton>
+                                        <Modal.Title>
+                                            <h5>CATIC</h5>
+                                        </Modal.Title>
+                                    </Modal.Header>
+                                    <Modal.Body>
+                                        <div className='container'>
+                                            <img className='modal-logo' src="https://cdn.theorg.com/a6695e6a-2e7e-47fc-a986-808c347dcf51_medium.jpg"></img>
+                                            <h5 className='left'>About</h5>
+                                            <h6>• Data Entry Clerk Internship<br></br>• Summer 2018, Summer 2019, Summer 2020</h6>https://cdn.theorg.com/a6695e6a-2e7e-47fc-a986-808c347dcf51_medium.jpg
+                                            <h5 className='left'>Tasks</h5>
+                                            <h6>
+                                                •   Collected and formatted municipality data for the CATIC iPhone application.<br></br>
+                                                •	Reformatted unstructured spreadsheet data and reorganized it into importable columns using formulas and macros.<br></br>
+                                                •	Collected new data from town websites and via phone calls to the municipalities when necessary.<br></br>
+                                                •	Assisted in mass mailings.<br></br>
+                                            </h6>
+                                        </div>
+                                    </Modal.Body>
+                                </Modal>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
             <h2 className='subtitle'>Education</h2>
-            <Card className='mx-auto' style={{ width: '20rem' }}  >
-                <Card.Img className='card-images' variant="top" src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/monmouth_u/standard.png?1580176224" />
-
+            <Row xs={1} md={2} className="g-4">
+                <Col>
+            <Card className='mx-auto h-100'>
+                <Card.Img className='card-images' variant="top" src="./mu.jpg" />
                 <Card.Body>
                     <Card.Title className='card-font' >Monmouth University</Card.Title>
                     <Card.Text className='card-font' >
-                        2023
+                        B.S. in Computer Science
                     </Card.Text>
                     <div class="col text-center">
                         <Button variant="dark" onClick={() => setShowMU(true)}>Learn More</Button>
@@ -258,20 +265,20 @@ const Home = () => {
                             </Modal.Header>
                             <Modal.Body>
                                 <div className='container'>
-                                    <img className='modal-logo' src = 'https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/monmouth_u/standard.png?1580176224'></img>
+                                    <img className='modal-logo' src='https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/monmouth_u/standard.png?1580176224'></img>
                                     <h5 className='left'>About</h5>
                                     <h6>
-                                    •   Major in Computer Science with a concentration in databses and intelligent information systems<br></br>
-                                    •	Enrolled in the 4+1 Masters Degree program.<br></br>
-                                    •	Will earn BS in 2022, MS in 2023<br></br>
-                                    •	3.83 GPA<br></br>
+                                        •   Major in Computer Science with a concentration in databses and intelligent information systems<br></br>
+                                        •	Enrolled in the 4+1 Masters Degree program.<br></br>
+                                        •	Will earn BS in 2022, MS in 2023<br></br>
+                                        •	3.83 GPA<br></br>
                                     </h6>
                                     <h5 className='left'>Involvment</h5>
                                     <h6>
-                                    •   Tau Delta Phi Fraternity<br></br>
-                                    &emsp; • Executive Board Member - Scribe, Academics chair <br></br>
-                                    • Club Baseball <br></br>
-                                    • Phi Eta Sigma Honors Society
+                                        •   Tau Delta Phi Fraternity<br></br>
+                                        &emsp; • Executive Board Member - Scribe, Academics chair <br></br>
+                                        • Club Baseball <br></br>
+                                        • Phi Eta Sigma Honors Society
                                     </h6>
                                     <h5 className='left'>Relevent Courses</h5>
                                     <h6>
@@ -301,6 +308,70 @@ const Home = () => {
                     </div>
                 </Card.Body>
             </Card>
+            </Col>
+            <Col>
+                        <Card className='mx-auto h-100'>
+                <Card.Img className='card-images' variant="top" src="./mu.jpg" />
+                <Card.Body>
+                    <Card.Title className='card-font' >Monmouth University</Card.Title>
+                    <Card.Text className='card-font' >
+                        M.S. in Computer Science
+                    </Card.Text>
+                    <div class="col text-center">
+                        <Button variant="dark" onClick={() => setShowMU(true)}>Learn More</Button>
+                        <Modal show={showMU} onHide={() => setShowMU(false)} size="lg">
+                            <Modal.Header closeButton>
+                                <Modal.Title>
+                                    <h5>Monmouth University</h5>
+                                </Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
+                                <div className='container'>
+                                    <img className='modal-logo' src='https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/monmouth_u/standard.png?1580176224'></img>
+                                    <h5 className='left'>About</h5>
+                                    <h6>
+                                        •   Major in Computer Science with a concentration in databses and intelligent information systems<br></br>
+                                        •	Enrolled in the 4+1 Masters Degree program.<br></br>
+                                        •	Will earn BS in 2022, MS in 2023<br></br>
+                                        •	3.83 GPA<br></br>
+                                    </h6>
+                                    <h5 className='left'>Involvment</h5>
+                                    <h6>
+                                        •   Tau Delta Phi Fraternity<br></br>
+                                        &emsp; • Executive Board Member - Scribe, Academics chair <br></br>
+                                        • Club Baseball <br></br>
+                                        • Phi Eta Sigma Honors Society
+                                    </h6>
+                                    <h5 className='left'>Relevent Courses</h5>
+                                    <h6>
+                                        • Intro to Java<br></br>
+                                        • Java II<br></br>
+                                        • Calculus I<br></br>
+                                        • Computer Architecture<br></br>
+                                        • Calculus II<br></br>
+                                        • Data Structures and Algorithms<br></br>
+                                        • Scripting Languages<br></br>
+                                        • iOS App Development<br></br>
+                                        • Operating Systems Analysis<br></br>
+                                        • Software Engineering Concepts<br></br>
+                                        • Web Based Engineering<br></br>
+                                        • Computer Security and Cryptography<br></br>
+                                        • Probability and Statistics<br></br>
+                                        • Senior Project<br></br>
+                                    </h6>
+                                    <h5 className='left'>Achievments</h5>
+                                    <h6>
+                                        • Phi Eta Sigma Honors Society<br></br>
+                                        • Deans List (5x)<br></br>
+                                    </h6>
+                                </div>
+                            </Modal.Body>
+                        </Modal>
+                    </div>
+                </Card.Body>
+            </Card>
+            </Col>
+            </Row>
         </div>
     )
 }
