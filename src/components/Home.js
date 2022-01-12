@@ -6,6 +6,7 @@ const Home = () => {
     const [showFiserv, setShowFiserv] = useState(false);
     const [showCATIC, setShowCATIC] = useState(false);
     const [showMU, setShowMU] = useState(false);
+    const [showMU2, setShowMU2] = useState(false);
     return (
         <div className="container">
             <h1 className="page-header">Home</h1>
@@ -227,9 +228,9 @@ const Home = () => {
                                     </Modal.Header>
                                     <Modal.Body>
                                         <div className='container'>
-                                            <img className='modal-logo' src="https://cdn.theorg.com/a6695e6a-2e7e-47fc-a986-808c347dcf51_medium.jpg"></img>
+                                            <img className='modal-logo' src="./catic.jpg"></img>
                                             <h5 className='left'>About</h5>
-                                            <h6>• Data Entry Clerk Internship<br></br>• Summer 2018, Summer 2019, Summer 2020</h6>https://cdn.theorg.com/a6695e6a-2e7e-47fc-a986-808c347dcf51_medium.jpg
+                                            <h6>• Data Entry Clerk Internship<br></br>• Summer 2018, Summer 2019, Summer 2020</h6>
                                             <h5 className='left'>Tasks</h5>
                                             <h6>
                                                 •   Collected and formatted municipality data for the CATIC iPhone application.<br></br>
@@ -248,129 +249,105 @@ const Home = () => {
             <h2 className='subtitle'>Education</h2>
             <Row xs={1} md={2} className="g-4">
                 <Col>
-            <Card className='mx-auto h-100'>
-                <Card.Img className='card-images' variant="top" src="./mu.jpg" />
-                <Card.Body>
-                    <Card.Title className='card-font' >Monmouth University</Card.Title>
-                    <Card.Text className='card-font' >
-                        B.S. in Computer Science
-                    </Card.Text>
-                    <div class="col text-center">
-                        <Button variant="dark" onClick={() => setShowMU(true)}>Learn More</Button>
-                        <Modal show={showMU} onHide={() => setShowMU(false)} size="lg">
-                            <Modal.Header closeButton>
-                                <Modal.Title>
-                                    <h5>Monmouth University</h5>
-                                </Modal.Title>
-                            </Modal.Header>
-                            <Modal.Body>
-                                <div className='container'>
-                                    <img className='modal-logo' src='https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/monmouth_u/standard.png?1580176224'></img>
-                                    <h5 className='left'>About</h5>
-                                    <h6>
-                                        •   Major in Computer Science with a concentration in databses and intelligent information systems<br></br>
-                                        •	Enrolled in the 4+1 Masters Degree program.<br></br>
-                                        •	Will earn BS in 2022, MS in 2023<br></br>
-                                        •	3.83 GPA<br></br>
-                                    </h6>
-                                    <h5 className='left'>Involvment</h5>
-                                    <h6>
-                                        •   Tau Delta Phi Fraternity<br></br>
-                                        &emsp; • Executive Board Member - Scribe, Academics chair <br></br>
-                                        • Club Baseball <br></br>
-                                        • Phi Eta Sigma Honors Society
-                                    </h6>
-                                    <h5 className='left'>Relevent Courses</h5>
-                                    <h6>
-                                        • Intro to Java<br></br>
-                                        • Java II<br></br>
-                                        • Calculus I<br></br>
-                                        • Computer Architecture<br></br>
-                                        • Calculus II<br></br>
-                                        • Data Structures and Algorithms<br></br>
-                                        • Scripting Languages<br></br>
-                                        • iOS App Development<br></br>
-                                        • Operating Systems Analysis<br></br>
-                                        • Software Engineering Concepts<br></br>
-                                        • Web Based Engineering<br></br>
-                                        • Computer Security and Cryptography<br></br>
-                                        • Probability and Statistics<br></br>
-                                        • Senior Project<br></br>
-                                    </h6>
-                                    <h5 className='left'>Achievments</h5>
-                                    <h6>
-                                        • Phi Eta Sigma Honors Society<br></br>
-                                        • Deans List (5x)<br></br>
-                                    </h6>
-                                </div>
-                            </Modal.Body>
-                        </Modal>
-                    </div>
-                </Card.Body>
-            </Card>
-            </Col>
-            <Col>
-                        <Card className='mx-auto h-100'>
-                <Card.Img className='card-images' variant="top" src="./mu.jpg" />
-                <Card.Body>
-                    <Card.Title className='card-font' >Monmouth University</Card.Title>
-                    <Card.Text className='card-font' >
-                        M.S. in Computer Science
-                    </Card.Text>
-                    <div class="col text-center">
-                        <Button variant="dark" onClick={() => setShowMU(true)}>Learn More</Button>
-                        <Modal show={showMU} onHide={() => setShowMU(false)} size="lg">
-                            <Modal.Header closeButton>
-                                <Modal.Title>
-                                    <h5>Monmouth University</h5>
-                                </Modal.Title>
-                            </Modal.Header>
-                            <Modal.Body>
-                                <div className='container'>
-                                    <img className='modal-logo' src='https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/monmouth_u/standard.png?1580176224'></img>
-                                    <h5 className='left'>About</h5>
-                                    <h6>
-                                        •   Major in Computer Science with a concentration in databses and intelligent information systems<br></br>
-                                        •	Enrolled in the 4+1 Masters Degree program.<br></br>
-                                        •	Will earn BS in 2022, MS in 2023<br></br>
-                                        •	3.83 GPA<br></br>
-                                    </h6>
-                                    <h5 className='left'>Involvment</h5>
-                                    <h6>
-                                        •   Tau Delta Phi Fraternity<br></br>
-                                        &emsp; • Executive Board Member - Scribe, Academics chair <br></br>
-                                        • Club Baseball <br></br>
-                                        • Phi Eta Sigma Honors Society
-                                    </h6>
-                                    <h5 className='left'>Relevent Courses</h5>
-                                    <h6>
-                                        • Intro to Java<br></br>
-                                        • Java II<br></br>
-                                        • Calculus I<br></br>
-                                        • Computer Architecture<br></br>
-                                        • Calculus II<br></br>
-                                        • Data Structures and Algorithms<br></br>
-                                        • Scripting Languages<br></br>
-                                        • iOS App Development<br></br>
-                                        • Operating Systems Analysis<br></br>
-                                        • Software Engineering Concepts<br></br>
-                                        • Web Based Engineering<br></br>
-                                        • Computer Security and Cryptography<br></br>
-                                        • Probability and Statistics<br></br>
-                                        • Senior Project<br></br>
-                                    </h6>
-                                    <h5 className='left'>Achievments</h5>
-                                    <h6>
-                                        • Phi Eta Sigma Honors Society<br></br>
-                                        • Deans List (5x)<br></br>
-                                    </h6>
-                                </div>
-                            </Modal.Body>
-                        </Modal>
-                    </div>
-                </Card.Body>
-            </Card>
-            </Col>
+                    <Card className='mx-auto h-100'>
+                        <Card.Img className='card-images' variant="top" src="./mu.jpg" />
+                        <Card.Body>
+                            <Card.Title className='card-font' >Monmouth University</Card.Title>
+                            <Card.Text className='card-font' >
+                                B.S. in Computer Science
+                            </Card.Text>
+                            <div class="col text-center">
+                                <Button variant="dark" onClick={() => setShowMU(true)}>Learn More</Button>
+                                <Modal show={showMU} onHide={() => setShowMU(false)} size="lg">
+                                    <Modal.Header closeButton>
+                                        <Modal.Title>
+                                            <h5>Monmouth University</h5>
+                                        </Modal.Title>
+                                    </Modal.Header>
+                                    <Modal.Body>
+                                        <div className='container'>
+                                            <img className='modal-logo' src='./mu.jpg'></img>
+                                            <h5 className='left'>About</h5>
+                                            <h6>
+                                                •   Major in Computer Science <br></br>
+                                                •	Set to get B.S. in spring 2022<br></br>
+                                                •   Enrolled in the 4+1 Masters Degree program<br></br>
+                                                •	3.84 GPA<br></br>
+                                            </h6>
+                                            <h5 className='left'>Involvment</h5>
+                                            <h6>
+                                                •   Tau Delta Phi Fraternity<br></br>
+                                                &emsp; • Executive Board Member - Scribe, Academics chair <br></br>
+                                                • Club Baseball <br></br>
+                                                • Phi Eta Sigma Honors Society
+                                            </h6>
+                                            <h5 className='left'>Relevent Courses</h5>
+                                            <h6>
+                                                • Intro to Java<br></br>
+                                                • Java II<br></br>
+                                                • Calculus I<br></br>
+                                                • Computer Architecture<br></br>
+                                                • Calculus II<br></br>
+                                                • Data Structures and Algorithms<br></br>
+                                                • Scripting Languages<br></br>
+                                                • iOS App Development<br></br>
+                                                • Operating Systems Analysis<br></br>
+                                                • Software Engineering Concepts<br></br>
+                                                • Web Based Engineering<br></br>
+                                                • Computer Security and Cryptography<br></br>
+                                                • Probability and Statistics<br></br>
+                                                • Senior Project<br></br>
+                                            </h6>
+                                            <h5 className='left'>Achievments</h5>
+                                            <h6>
+                                                • Phi Eta Sigma Honors Society<br></br>
+                                                • Deans List (5x)<br></br>
+                                            </h6>
+                                        </div>
+                                    </Modal.Body>
+                                </Modal>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card className='mx-auto h-100'>
+                        <Card.Img className='card-images' variant="top" src="./mu.jpg" />
+                        <Card.Body>
+                            <Card.Title className='card-font' >Monmouth University</Card.Title>
+                            <Card.Text className='card-font' >
+                                M.S. in Computer Science
+                            </Card.Text>
+                            <div class="col text-center">
+                                <Button variant="dark" onClick={() => setShowMU2(true)}>Learn More</Button>
+                                <Modal show={showMU2} onHide={() => setShowMU2(false)} size="lg">
+                                    <Modal.Header closeButton>
+                                        <Modal.Title>
+                                            <h5>Monmouth University</h5>
+                                        </Modal.Title>
+                                    </Modal.Header>
+                                    <Modal.Body>
+                                        <div className='container'>
+                                            <img className='modal-logo' src='./mu.jpg'></img>
+                                            <h5 className='left'>About</h5>
+                                            <h6>
+                                                •   Major in Computer Science with a concentration in databses and intelligent information systems<br></br>
+                                                •	Set to get M.S. in spring 2023<br></br>
+                                                •	4.00 GPA<br></br>
+                                            </h6>
+                                            
+                                            <h5 className='left'>Relevent Courses</h5>
+                                            <h6>
+                                                • Computer Security and Cryptography<br></br>
+                                                • Algorithm Design<br></br>      
+                                            </h6>
+                                        </div>
+                                    </Modal.Body>
+                                </Modal>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
         </div>
     )

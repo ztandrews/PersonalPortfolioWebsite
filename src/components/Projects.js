@@ -200,7 +200,7 @@ const Project = () => {
                                         data. Below are a few screenshots of the website.
                                     </h6>
                                     <h5 className='left'>Home Page</h5>
-                                    <img className='img-fluid' src="./wwjd.jpg"></img>
+                                    <img className='img-fluid' src="./wwjd6.jpg"></img>
                                     <h5 className='left'>Social Page</h5>
                                     <img className='img-fluid' src="./wjd2.jpg"></img>
                                     <h5 className='left'>Roster Page</h5>
@@ -239,7 +239,7 @@ const Project = () => {
                                         it gave me a full, hands on experience on how to build, host, and maintain a website, along with how to acquire a 
                                         domain name and SSL certificate to make sure the site is secure. Below is a picture of what the site looks like.
                                     </h6>
-                                    <img className='img-fluid' src="./lc.jpg"></img>
+                                    <img className='img-fluid' src="./lc2.jpg"></img>
                                 </div>
                             </Modal.Body>
                         </Modal>
