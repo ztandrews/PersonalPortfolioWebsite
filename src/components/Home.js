@@ -172,7 +172,7 @@ const Home = () => {
             <h2 className='subtitle'>Experience</h2>
             <Row xs={1} md={2} className="g-4">
                 <Col>
-                    <Card className='mx-auto h-100'>
+                    <Card className='mx-auto h-100 shadow p-3 mb-5 bg-white rounded'>
                         <Card.Img className='card-images' variant="top" src="./fiserv.jpg" />
                         <Card.Body>
                             <Card.Title className='card-font' >Fiserv</Card.Title>
@@ -211,7 +211,7 @@ const Home = () => {
                 </Col>
                 <br></br>
                 <Col>
-                    <Card className='mx-auto h-100'>
+                    <Card className='mx-auto h-100 shadow p-3 mb-5 bg-white rounded'>
                         <Card.Img className='card-images' variant="top" src="./catic.jpg" />
                         <Card.Body>
                             <Card.Title className='card-font' >CATIC</Card.Title>
@@ -249,7 +249,7 @@ const Home = () => {
             <h2 className='subtitle'>Education</h2>
             <Row xs={1} md={2} className="g-4">
                 <Col>
-                    <Card className='mx-auto h-100'>
+                    <Card className='mx-auto h-100 shadow p-3 mb-5 bg-white rounded'>
                         <Card.Img className='card-images' variant="top" src="./mu.jpg" />
                         <Card.Body>
                             <Card.Title className='card-font' >Monmouth University</Card.Title>
@@ -311,7 +311,7 @@ const Home = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className='mx-auto h-100'>
+                    <Card className='mx-auto h-100 shadow p-3 mb-5 bg-white rounded'>
                         <Card.Img className='card-images' variant="top" src="./mu.jpg" />
                         <Card.Body>
                             <Card.Title className='card-font' >Monmouth University</Card.Title>

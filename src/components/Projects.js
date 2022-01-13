@@ -15,7 +15,7 @@ const Project = () => {
             <h1 className="page-header">Projects</h1>
              <Row xs={1} md={2} className="g-4">
             <Col>
-            <Card className='mx-auto h-100'>
+            <Card className='mx-auto h-100 shadow p-3 mb-5 bg-white rounded'>
                 <Card.Img className='card-images' variant="top" src="./rink.png" />
                 <Card.Body>
                     <Card.Title className='card-font' >NHL Shot Maps</Card.Title>
@@ -60,12 +60,12 @@ const Project = () => {
             </Card>
             </Col>
             <Col>
-            <Card className='mx-auto h-100'>
+            <Card className='mx-auto h-100 shadow p-3 mb-5 bg-white rounded'>
                 <Card.Img className='card-images' variant="top" src="./diff.png" />
                 <Card.Body>
                     <Card.Title className='card-font' >NHL Goal Differential</Card.Title>
                     <Card.Text className='card-font' >
-                        A Python program to chart NHL teams goal differential from game to game.
+                        A program to chart NHL teams goal differentials.
                     </Card.Text>
                     <div className="col text-center">
                         <Button variant="dark" onClick={() => setShowGoalDiff(true)}>Learn More</Button>
@@ -97,12 +97,12 @@ const Project = () => {
             <br></br>
            <Row xs={1} md={2} className="g-4">
                <Col>
-            <Card  className='mx-auto h-100'>
+            <Card className='mx-auto h-100 shadow p-3 mb-5 bg-white rounded'>
                 <Card.Img className='card-images' variant="top" src="./charts.png" />
                 <Card.Body>
                     <Card.Title className='card-font' >MLB Polar Charts</Card.Title>
                     <Card.Text className='card-font' >
-                        Python programs to chart MLB players' statistics with a polar chart.
+                        Programs to chart MLB players' stats.
                     </Card.Text>
                     <div className="col text-center">
                         <Button variant="dark" onClick={() => setShowPolar(true)}>Learn More</Button>
@@ -134,12 +134,12 @@ const Project = () => {
             </Card>
            </Col>
            <Col>
-            <Card className='mx-auto h-100'>
+            <Card className='mx-auto h-100 shadow p-3 mb-5 bg-white rounded'>
                 <Card.Img className='card-images' variant="top" src="./charts2.png" />
                 <Card.Body>
                     <Card.Title className='card-font' >Sleeper Points Above Expected</Card.Title>
                     <Card.Text className='card-font' >
-                        A Python program to chart how well or poorly your Sleeper fantasy football team is performing.
+                        A program to chart fantasy points above expected.
                     </Card.Text>
                     <div className="col text-center">
                         <Button variant="dark" onClick={() => setShowSleeper(true)}>Learn More</Button>
@@ -172,7 +172,7 @@ const Project = () => {
             <br></br>
             <Row xs={1} md={2} className="g-4">
                 <Col>
-            <Card  className='mx-auto h-100'>
+            <Card className='mx-auto h-100 shadow p-3 mb-5 bg-white rounded'>
                 <Card.Img className='card-images' variant="top" src="./wwjd.jpg" />
                 <Card.Body>
                     <Card.Title className='card-font' >Fantasy Football Team Website</Card.Title>
@@ -213,7 +213,7 @@ const Project = () => {
             </Card>
             </Col>
             <Col>
-            <Card  className='mx-auto h-100'>
+        <Card className='mx-auto h-100 shadow p-3 mb-5 bg-white rounded'>
                 <Card.Img className='card-images' variant="top" src="./lc.jpg" />
                 <Card.Body>
                     <Card.Title className='card-font' >LouCoin Website</Card.Title>
